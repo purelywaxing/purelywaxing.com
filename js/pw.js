@@ -12,7 +12,10 @@ d.parent(".dropdown-menu").length&&(d=d.closest("li.dropdown").addClass("active"
   $('.price-list').toggleClass('hidden');
   $('.pricing-tab').parent().toggleClass('active');
 })
-;/*!
+
+$('.image-selector input').change(function(e) {
+  $(e.target).closest('.waxing-treatment').find('img.view').toggle();
+});/*!
  * IE10 viewport hack for Surface/desktop Windows 8 bug
  * Copyright 2014-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
