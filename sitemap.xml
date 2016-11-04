@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.purelywaxing.com/bikini-wax/</loc>
+    <lastmod>2016-11-04T22:42:13+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://www.purelywaxing.com/book/</loc>
     <lastmod>2016-10-10T12:27:46+01:00</lastmod>
   </url>
   <url>
+    <loc>https://www.purelywaxing.com/brazilian-wax/</loc>
+    <lastmod>2016-11-04T22:41:49+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://www.purelywaxing.com/contact-us/</loc>
     <lastmod>2016-10-27T23:30:49+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.purelywaxing.com/hollywood-wax/</loc>
+    <lastmod>2016-11-04T22:40:17+00:00</lastmod>
   </url>
   <url>
     <loc>https://www.purelywaxing.com/</loc>
@@ -31,17 +43,5 @@
   <url>
     <loc>https://www.purelywaxing.com/waxing-in-stockport/</loc>
     <lastmod>2016-10-27T23:31:30+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://www.purelywaxing.com/waxing-treatment/bikini/</loc>
-    <lastmod>2016-10-26T23:12:37+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://www.purelywaxing.com/waxing-treatment/brazilian/</loc>
-    <lastmod>2016-10-26T18:53:26+01:00</lastmod>
-  </url>
-  <url>
-    <loc>https://www.purelywaxing.com/waxing-treatment/hollywood/</loc>
-    <lastmod>2016-10-25T21:55:56+01:00</lastmod>
   </url>
 </urlset>
