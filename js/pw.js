@@ -17,6 +17,11 @@ $('.image-selector input').change(function(e) {
   $(e.target).closest('.waxing-treatment').find('img.view').toggle();
 })
 
+function getParam(p){
+  var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+  return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
 function getClientId(uaNumber) {
   var _ga = window[window.GoogleAnalyticsObject];
   if (_ga === undefined) {
@@ -61,7 +66,18 @@ addEvent(window, 'message', function(message) {
   if (message.data === 'ovatuLoaded' && message.origin === 'https://ovatu.com') {
     transmitClientId();
   }
-});;/*!
+});
+
+var gclid = getParam('gclid');
+if(gclid){
+  var gclsrc = getParam('gclsrc');
+  if(!gclsrc || gclsrc.indexOf('aw') !== -1){
+    var request = new XMLHttpRequest();
+    request.open('POST', 'https://id.purelywaxing.com/g.php', true);
+    request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+    request.send('gclid=' + gclid);
+  }
+};/*!
  * IE10 viewport hack for Surface/desktop Windows 8 bug
  * Copyright 2014-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
