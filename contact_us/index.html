@@ -12,7 +12,7 @@
     <meta name="description" content="Contact details for booking an appointment. Call us on 0161 694 7120 to book now.">
 
     <title>Contact us for the best waxing advice or to book a wax</title>
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/app.css" rel="stylesheet">
     <link href="https://www.purelywaxing.com/contact-us/" rel="canonical">
 
@@ -118,7 +118,16 @@
   </div>
 </nav>
 
-<div class="container contact">
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=276391322727334";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script><div class="container contact">
   <div class="row">
     <div class="col-md-6">
       <h2>Get in touch</h2>
@@ -142,21 +151,27 @@
           <h3>Email</h3>
           <span class="contact-email" style="display:inline-block;">
   <a href="mailto:info@purelywaxing.com">
-    <span class="glyphicon glyphicon glyphicon-envelope email_icon" aria-hidden="true" style="font-size:0.8em"></span>
+    <i class="fa fa-envelope" aria-hidden="true"></i>
     info@purelywaxing.com
   </a>
 </span>
+          <h3>Facebook</h3>
+          <a href="https://www.facebook.com/PurelyWaxing">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            PurelyWaxing</a>
+          <div class="fb-like" data-href="http://www.facebook.com/PurelyWaxing" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
         </div>
         <div class="col-xs-6">
           <h3>Phone</h3>
           <span style="display:inline-block;">
   <a href="tel:0161 694 7120">
-    <span class="glyphicon glyphicon-earphone" aria-hidden="true" style="font-size:0.8em"></span>
+    <i class="fa fa-phone" aria-hidden="true"></i>
     0161 694 7120
   </a>
 </span>
           <h3>Text</h3>
-          <a href="sms:+447704667054">07704 667 054</a>
+          <a href="sms:+447704667054"><i class="fa fa-mobile" aria-hidden="true"></i>
+             07704 667 054</a>
           <h3>Facebook Messenger</h3>
           <a href="http://m.me/PurelyWaxing">PurelyWaxing</a>
         </div>
@@ -189,7 +204,7 @@
 <span style="display:inline-block;">or call us on </span>
 <span style="display:inline-block;">
   <a href="tel:0161 694 7120">
-    <span class="glyphicon glyphicon-earphone" aria-hidden="true" style="font-size:0.8em"></span>
+    <i class="fa fa-phone" aria-hidden="true"></i>
     0161 694 7120
   </a>
 </span>
